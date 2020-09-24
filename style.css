@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0; 
+	width: 100%;
+	font-family: 'Impact', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body { 
+	background-image: url("images/abstract-1278077.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+h1 {
+	color: aliceblue;
+	font-size: 2rem;
+	margin: 10px 0 20px 5px;
+	padding: 25px 5px;
+	background-color: #0e2b3c;
+	opacity: 0.9;
+	text-align: center;
+	border-radius: 5px;
+	font-family: 'MontserratAlternates-Bold';
+}
+
+h2 {
+	margin: 10px 0 20px 0;
+	width: 80%;
+	font-family: 'MontserratAlternates-Bold';
+}
+
+h3 {
+	margin: 15px;
+	font-family: 'MontserratAlternates-Bold';
+}
+
+
+
+img {
+	width: 35px;
+	height: 35px;
+}
+
+header {
+	background-color: transparent;
+	width: 15%;
+	position: fixed;
+}
+
+nav {
+	height: 500px;
+}
+
+nav > ul > li {
+	text-align: center;
+	padding: 30px 0 0 0;
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+
+nav > ul > li > a {
+	text-decoration: none;
+	color: aliceblue;
+	float: left;
+	font-family: 'MontserratAlternates-Bold';
+}
+
+section ul li {
+	line-height: 24px;
+	font-family: "Lora-Italic";
+}
+
+section {
+	width: 80%;
+	float: right;
+	margin-right: 30px;
+	color: #0e2b3c;
+	
+}
+
+p {
+	padding: 20px;
+	line-height: 24px;
+	font-family: "Lora-Italic";
+	
+}
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.3);
+}
+
+.icones {
+	text-align: center;
+}
+
+.container {
+	width: 100%;
+	height: 400px;
+	background-color: aliceblue;
+	opacity: 0.9;
+	float: right;
+	margin-top:	120px;
+	text-align: justify;
+	border-radius: 10px;
+	
+}
+
+.top_container {
+	margin-top:	130px;
+}
+
+.bottom_container {
+	margin-bottom:	120px;
+}
+
+.skills_list,
+.tools_list,
+.languages_list,
+.career_list,
+.exams_list,
+.diplomas_list,
+.formation_list,
+.actions_list,
+.hobbies_list {
+	width: 90%;
+	height: 90%;
+	margin: 30px;
+}
